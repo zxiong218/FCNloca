@@ -14,7 +14,6 @@ event0.sgy    3971.63       -10802 5.918      2016-03-31 21:31:29.600
 The usage of the code is simple:
 
 To run traning: python fcn_train.py
-
 To run testing: python fcn_test.py
 
 
