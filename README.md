@@ -5,15 +5,16 @@ You can run the codes by CPU or GPU on Linux or Windows. The waveform data is pr
 The catalog format:
 
 
-SEGY_file  latitude*111.19 Longtitude*111.19       origin_time
+SEGY_file   latitude*111.19   Longtitude*111.19       origin_time
 
-event0.sgy    3971.63       -10802 5.918      2016-03-31 21:31:29.600
+event0.sgy      3971.63        -10802 5.918      2016-03-31 21:31:29.600
 
 ....
 
 The usage of the code is simple:
 
 To run traning: python fcn_train.py
+
 To run testing: python fcn_test.py
 
 
