@@ -1,6 +1,6 @@
 # FCNloca
 
-This is a simple demo about the FCN location. The network structure is the same as in the SR paper. number of training samples is 250; the number of testing samples is 100.
+This is a simple demo about the FCN location. The network structure is the same as in the SR paper (Zhang et al., 2020). number of training samples is 250; the number of testing samples is 100.
 You can run the codes by CPU or GPU on Linux or Windows. The waveform data is preprocessed as SEGY data, and each SEGY corresponds to an earthquake event in the catalog (testing_samples.txt and training_samples). 
 The catalog format:
 
@@ -26,3 +26,5 @@ The output files include:
 
 You can open txt file to check the location results or compare the location results with the true locations in catalog. The mat files could be loaded in Matlab to plot the location images.
 
+Reference:
+Zhang, X., Zhang, J., Yuan, C. et al. Locating induced earthquakes with a network of seismic stations in Oklahoma via a deep learning method. Sci Rep 10, 1941 (2020). https://doi.org/10.1038/s41598-020-58908-5
