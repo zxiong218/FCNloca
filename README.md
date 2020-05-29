@@ -1,6 +1,7 @@
 # FCNloca
 
-This is a simple demo about the FCN location. The network structure is the same as in the SR paper (Zhang et al., 2020). number of training samples is 250; the number of testing samples is 100.
+This is a simple demo about the FCN location. The basic idea is the same as in the SR paper (Zhang et al., 2020). number of training samples is 250; the number of testing samples is 100. However, if you want to apply the code to your own problem, you need to change the network structure, data IO, and so on. The code is extreamly simple, and there are only 250 samples for training for the demo code.
+
 You can run the codes by CPU or GPU on Linux or Windows. The waveform data is preprocessed as SEGY data, and each SEGY corresponds to an earthquake event in the catalog (testing_samples.txt and training_samples). 
 The catalog format:
 
