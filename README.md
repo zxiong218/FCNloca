@@ -25,7 +25,7 @@ The output files include:
 
 (2) the predicted location results: test_xyz.txt; the predicted location image labels: test_predictedlabel.mat; the true image lables: test_true.mat.
 
-You can open txt file to check the location results or compare the location results with the true locations in catalog. The mat files could be loaded in Matlab to plot the location images.
+You can open txt file to check the location results or compare the location results with the true locations in catalog (testing_samples.txt). The mat files could be loaded in Matlab to plot the location images.
 
 Reference:
 Zhang, X., Zhang, J., Yuan, C. et al. Locating induced earthquakes with a network of seismic stations in Oklahoma via a deep learning method. Sci Rep 10, 1941 (2020). https://doi.org/10.1038/s41598-020-58908-5
