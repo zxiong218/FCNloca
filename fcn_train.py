@@ -15,8 +15,9 @@ class FCNloca(object):
     self.img_cols = img_cols
 
   def load_data(self):
+    r=[[34.9751,0.0315,80],[-98.4047,0.0225,128],[0.000,0.4,30]]
     wave_train,loca_train=sgydata.load_sgylist_xyz1(sgylist=['./waveform_data/','training_samples.txt'],
-            sgyr=[0,-1,1],xr=[3913.880-25.0,3.500,80],yr=[-10896.620-45,2.500,128],zr=[0.000,0.4,30],r=400,
+            sgyr=[0,-1,1],xr=r[0],yr=r[1],zr=r[2],r=0.05,
             shiftdata=[list(range(20,50))+list(range(-200,-20)),1])
     loca_train=np.reshape(loca_train,(len(loca_train),80,128,30)) 
     print('end load_data()...')

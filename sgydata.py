@@ -37,7 +37,7 @@ def read_sgy(sgynam='test.sgy'):
     binsgy.close()
     return nr,nsmp,data;
 
-def loca_img_xyz(xr=[0.25,0.01,24],yr=[-0.2,0.013,32],zr=[3.07,0.01,18],xyz=[0.4,0.0,3.12],r=0.0005,rtz=(100.0/12.0)**2):
+def loca_img_xyz(xr=[0.25,0.01,24],yr=[-0.2,0.013,32],zr=[3.07,0.01,18],xyz=[0.4,0.0,3.12],r=0.0005,rtz=(1.5/12.0)**2):
     img=[]
     #rtz=(100.0/12.0)**2;
     #rtz=1.0;
@@ -65,7 +65,7 @@ def shuffle_data(data,ydata,seed,shuffle):
     ydata = [ydata[i] for i in index]
     return data,ydata
     
-def load_sgylist_xyz1(sgylist=['./path/','./ok_syn1/sgylist.txt'],sgyr=[0,-1,1],xr=[3913.880-25.0,14.000,20],yr=[-10896.620-25,15.000,20],zr=[100001.000-3,3.00,10],r=500.000,rtz=(100.0/12.0)**2,
+def load_sgylist_xyz1(sgylist=['./path/','./ok_syn1/sgylist.txt'],sgyr=[0,-1,1],xr=[3913.880-25.0,14.000,20],yr=[-10896.620-25,15.000,20],zr=[100001.000-3,3.00,10],r=500.000,rtz=(1.5/12.0)**2,
                       shuffle='true',shiftdata=[list(range(-5,2)),1]):
     #nx,ny,stn=read_stn(stnnam)
     with open(sgylist[1],'r') as f:
