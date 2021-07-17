@@ -75,7 +75,7 @@ class FCNloca(object):
     conv10 = Conv2D(30, 1, activation = 'sigmoid')(conv9)
     
 
-    model = Model(input = inputs, output = conv10)
+    model = Model(inputs = inputs, outputs = conv10)
     print('conv10:', conv10.shape)
 
     model.compile(optimizer = Adam(lr = 1e-4), loss = 'binary_crossentropy', metrics = ['accuracy'])
