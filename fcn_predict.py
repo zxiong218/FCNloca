@@ -45,7 +45,7 @@ def predict():
     sio.savemat('test_predictedlabel.mat', {'loca_predict':loca_predict,'xyzrange':r,'wave_test':wave_test})
 
     print('output location results.')
-    output_result1(r=r,imgs=loca_predict.tolist(),namout='test_xyz.txt')
+    output_result1(r=r,imgs=loca_predict,namout='test_xyz.txt')
     print('end predict')
 
 if __name__ == '__main__':
