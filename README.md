@@ -29,3 +29,4 @@ You can open txt file to check the location results or compare the location resu
 
 Reference:
 Zhang, X., Zhang, J., Yuan, C. et al. Locating induced earthquakes with a network of seismic stations in Oklahoma via a deep learning method. Sci Rep 10, 1941 (2020). https://doi.org/10.1038/s41598-020-58908-5
+Zhang, X., M. Zhang, and X. Tian, 2021, Real-Time Earthquake Early Warning With Deep Learning: Application to the 2016 M 6.0 Central Apennines, Italy Earthquake: Geophysical Research Letters, 48, no. 5, 2020GL089394, doi: https://doi.org/10.1029/2020GL089394.
